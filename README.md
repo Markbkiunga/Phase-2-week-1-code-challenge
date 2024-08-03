@@ -1,1 +1,1 @@
-# phase-2-week-1-code-challenge
+# Phase-2-week-1-code-challenge
