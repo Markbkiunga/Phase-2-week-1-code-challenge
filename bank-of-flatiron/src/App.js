@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
      <Heading />
-     <Form />
+     <Form transactions={transactions} setTransactions={setTransactions}/>
      <TransactionTable  transactions={transactions}/>
     </div>
   );
