@@ -4,6 +4,7 @@ import Heading from './components/Heading';
 import Form from './components/Form';
 import TransactionTable from './components/TransactionTable';
 import { useEffect, useState } from 'react';
+import SearchBar from './components/SearchBar';
 
 function App() {
   const [transactions, setTransactions] = useState([])
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
      <Heading />
      <Form transactions={transactions} setTransactions={setTransactions}/>
+     <SearchBar transactions={transactions} setTransactions={setTransactions}/>
      <TransactionTable  transactions={transactions}/>
     </div>
   );
