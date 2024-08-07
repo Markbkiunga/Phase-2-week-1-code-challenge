@@ -2,8 +2,8 @@ import React from 'react'
 
 function Heading() {
   return (
-    <div>
-        <h1>Bank Of FlatIron</h1>
+    <div className='heading-container'>
+        <h1 className='heading'>Bank Of FlatIron</h1>
     </div>
   )
 }

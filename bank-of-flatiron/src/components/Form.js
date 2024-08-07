@@ -2,9 +2,8 @@ import React from 'react';
 
 function Form() {
   return (
-    <div>
+    <div className='form-container'>
       <form className="transactions-form">
-        <p className="transaction-form-heading">Add Transaction Form</p>
         <input type="text" name="date" placeholder="Enter Date" />
         <input type="text" name="description" placeholder="Enter Description" />
         <input type="text" name="category" placeholder="Enter Category" />
