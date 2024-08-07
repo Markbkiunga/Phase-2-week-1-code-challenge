@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 function TransactionTableHeading() {
   return (
-    <div className='transaction-table-heading-container'>
-        <th>Date</th>
-        <th>Description</th>
-        <th>Category</th>
-        <th>Amount</th>
-    </div>
-  )
+    <tr>
+      <th>Date</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Amount</th>
+    </tr>
+  );
 }
 
-export default TransactionTableHeading
+export default TransactionTableHeading;
