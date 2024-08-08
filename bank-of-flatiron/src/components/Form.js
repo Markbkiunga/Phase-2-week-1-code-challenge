@@ -27,10 +27,10 @@ function Form({ transactions, setTransactions }) {
   return (
     <div className="form-container">
       <form className="transactions-form" onSubmit={handleFormSubmit}>
-        <input type="date" name="date" placeholder="Enter Date" onChange={(e)=> setDate(e.target.value)}/>
-        <input type="text" name="description" placeholder="Enter Description" onChange={(e)=> setDescription(e.target.value)}/>
-        <input type="text" name="category" placeholder="Enter Category" onChange={(e)=> setCategory(e.target.value)}/>
-        <input type="text" name="amount" placeholder="Enter Amount" onChange={(e)=> setAmount(e.target.value)}/>
+        <input type="date" name="date" placeholder="Enter Date" onChange={(e)=> setDate(e.target.value)} required/>
+        <input type="text" name="description" placeholder="Enter Description" onChange={(e)=> setDescription(e.target.value)} required/>
+        <input type="text" name="category" placeholder="Enter Category" onChange={(e)=> setCategory(e.target.value)}required/>
+        <input type="text" name="amount" placeholder="Enter Amount" onChange={(e)=> setAmount(e.target.value)} required/>
         <button>Add Transaction</button>
       </form>
     </div>

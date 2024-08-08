@@ -4,14 +4,13 @@ import Transaction from './Transaction';
 
 function TransactionTable({ transactions }) {
   return (
-    <table>
-      <thead>
+    <table className='transactions-table'>
+      <thead className='transactions-table-heading'>
         <TransactionTableHeading />
       </thead>
-      <tbody>
+      <tbody className='transactions-table-body'>
         <Transaction transactions={transactions} />
       </tbody>
-      <tfoot></tfoot>
     </table>
   );
 }
