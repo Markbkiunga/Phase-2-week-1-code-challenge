@@ -59,7 +59,7 @@ html {
 }
 .form-input:focus {
   color: black;
-  background-color: white;
+  background-color: rgb(216, 216, 216);
 }
 
 .add-transaction-button {
@@ -100,9 +100,10 @@ html {
 }
 .transaction-row {
   border-bottom: 1px solid #ddd;
-
 }
-
+.transaction-row:nth-child(even) {
+  background-color: #ddd;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
