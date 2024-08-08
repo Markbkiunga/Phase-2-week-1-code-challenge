@@ -83,13 +83,6 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
-    },
-    {
-      "id": "b2b9",
-      "date": "2024-08-07",
-      "description": "Eat Chapo",
-      "category": "Food",
-      "amount": "200.00"
     }
   ]
 }

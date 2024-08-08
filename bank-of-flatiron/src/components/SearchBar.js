@@ -7,7 +7,6 @@ function SearchBar({ transactions, setTransactions }) {
     setSearchByDescription(
       (searchByDescription) => (searchByDescription = event.target.value)
     );
-    console.log(searchByDescription);
 
     const filteredTransactions = transactions.filter((transaction) => {
       return transaction.description.includes(searchByDescription);
@@ -17,7 +16,7 @@ function SearchBar({ transactions, setTransactions }) {
   }
 
   return (
-    <div className='search-bar-container'>
+    <div className='searchbar-container'>
       <input
       className='searchbar'
         type="text"
