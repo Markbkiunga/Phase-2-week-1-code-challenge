@@ -23,7 +23,7 @@ For this assessment, I am required to:
 
 ### Pre-requisite Data
 
-The data to be used is in the `db.json` file inside `bank-of-flatiron` in this repo.
+<a href="https://bank-of-flatiron-backend-ebon.vercel.app/transactions">Transactions Data</a>
 
 ### Deliverables
 
